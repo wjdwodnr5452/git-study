@@ -18,4 +18,12 @@
 #### git diff
 - 소스 수정 전 후를 알려줌
 
+#### git difftool
+- 소스 수정 전 후를 에디터로 알려줌
+![image](https://github.com/wjdwodnr5452/git-study/assets/90361061/89da5775-dfab-41c6-ac42-76fa6a3e9de7)
+###### 커밋 아이디로 통해 수정 전 후를 알 수 있음 - git difftool 커밋 id
+
+
+
+
 
