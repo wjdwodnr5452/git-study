@@ -65,6 +65,11 @@
   - [fast-foward merge]
     
    ![image](https://github.com/wjdwodnr5452/git-study/assets/90361061/01ed555d-2283-4702-bd8f-4db469b3b4a9)
+  
+  - fast-forward merge 그래프
+    
+   ![image](https://github.com/wjdwodnr5452/git-study/assets/90361061/6a0f4dc7-fa31-4ed5-bfd5-42dd8b27f6ff)
+
 
 
 - git rebase & merge
