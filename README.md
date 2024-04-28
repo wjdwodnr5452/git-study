@@ -1,4 +1,4 @@
-# git-study
+# git 명령어
 
 #### git add
 - 기록할 파일 고르기 명령어 (staging area에 놓기)
