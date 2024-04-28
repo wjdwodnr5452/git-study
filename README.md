@@ -53,14 +53,18 @@
 
 ##### 브랜치 머지 방법
 
-- 3 way merge (각 브랜치에 신규 commit이 있는 경우)
+#### 1. 3 way merge (각 브랜치에 신규 commit이 있는 경우)
+  
 ![image](https://github.com/wjdwodnr5452/git-study/assets/90361061/5a2099b7-1d82-4dcf-8755-253eb466e7c9)
 
   - 3 way merge (그래프)
-![image](https://github.com/wjdwodnr5452/git-study/assets/90361061/2d6585cf-7438-495b-9fea-20547ef6d197)
+    
+   ![image](https://github.com/wjdwodnr5452/git-study/assets/90361061/2d6585cf-7438-495b-9fea-20547ef6d197)
 
 
-- fast-forward merge (기준 브랜치에 신규 commit이 없는 경우)
+
+#### 2. fast-forward merge (기준 브랜치에 신규 commit이 없는 경우)
+  - main 브랜치에 커밋이 없고 새로운 브랜치에 커밋이 있을 경 우 merge 할때 자동으로 fast-forward merge 가 됨
   
   - [beafore merge]
     
@@ -76,13 +80,46 @@
 
 
 
-- git rebase & merge
-  - rebase 쓰는 이유 : 간단하고 짧은 브랜치들은 rebase 쓰면 깔끌 해보임
+#### 3. git rebase & merge
+  - 신규브랜치의 시작점을 main 브랜치 최근 commit으로 옮긴 다음 fast-forward-merge 하는 것
+  - rebase 쓰는 이유 : 간단하고 짧은 브랜치들은 rebase 쓰면 깔끔 해보임
   - rebase 단점 : conflict가 많이 남
+    
+  ![image](https://github.com/wjdwodnr5452/git-study/assets/90361061/9682681e-c206-438d-b1ac-9dee4f529268)
+  
+  - git rebase & merge(그래프)
+    - 새 브런치에 있는 커밋들이 main으로 옮겨짐
+      
+   ![image](https://github.com/wjdwodnr5452/git-study/assets/90361061/ab7b4c60-4c1f-4f33-9dd5-0339eca1e5c3)
+
+   ```
+    git switch 새브랜치이름
+    git rebase main
+
+    git switch main
+    git merge 새브랜치이름
+   ```
 
 
-- squash and merge
-3 way merge를 하게 되면 로그에서 깔끔하게 안보임 그래서 squash and merge를 해서 로그 상 선이 안겹치게 하는 머지 방법
+    
+
+#### 4. squash and merge
+  - 새브런치에서 변경된 소스들을 main 브런치로 내용을 붙여줌
+  - 3 way merge를 하게 되면 로그에서 깔끔하게 안보임 그래서 squash and merge를 해서 로그 상 선이 안겹치게 하는 머지 방법
+    
+    ![image](https://github.com/wjdwodnr5452/git-study/assets/90361061/8f0eedc0-b205-41a1-8c69-80d1c9a1bd76)
+
+  - squash and merge (그래프)
+    - 변경된 소스 파일을 main에 붙여주고 main을 재 커밋
+      
+  ![image](https://github.com/wjdwodnr5452/git-study/assets/90361061/59d0dc75-449b-43ed-a8f5-13d4356f54d4)
+
+   ```
+    git switch main
+    git merge --sqush 새브랜치이름
+    git commit -m '메세지'
+   ```
+
   
 
 
