@@ -56,6 +56,10 @@
 - 3 way merge (각 브랜치에 신규 commit이 있는 경우)
 ![image](https://github.com/wjdwodnr5452/git-study/assets/90361061/5a2099b7-1d82-4dcf-8755-253eb466e7c9)
 
+  - 3 way merge (그래프)
+![image](https://github.com/wjdwodnr5452/git-study/assets/90361061/2d6585cf-7438-495b-9fea-20547ef6d197)
+
+
 - fast-forward merge (기준 브랜치에 신규 commit이 없는 경우)
   
   - [beafore merge]
