@@ -63,6 +63,13 @@
 rebase 쓰는 이유 : 간단하고 짧은 브랜치들은 rebase 쓰면 깔끌 해보임
 rebase 단점 : conflict가 많이 남
 
+[beafore merge]
+![image](https://github.com/wjdwodnr5452/git-study/assets/90361061/21074470-7fab-46d4-b5c3-059e063ad3fc)
+
+[fast-foward merge]
+![image](https://github.com/wjdwodnr5452/git-study/assets/90361061/01ed555d-2283-4702-bd8f-4db469b3b4a9)
+
+
 - squash and merge
 3 way merge를 하게 되면 로그에서 깔끔하게 안보임 그래서 squash and merge를 해서 로그 상 선이 안겹치게 하는 머지 방법
   
