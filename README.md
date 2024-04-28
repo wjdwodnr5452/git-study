@@ -51,6 +51,29 @@
 
 ##### 충돌날 경우 직접 소스를 고쳐야 함!
 
+##### 브랜치 머지 방법
+
+- 3 way merge (각 브랜치에 신규 commit이 있는 경우)
+![image](https://github.com/wjdwodnr5452/git-study/assets/90361061/5a2099b7-1d82-4dcf-8755-253eb466e7c9)
+
+- fast-forward merge (기준 브랜치에 신규 commit이 없는 경우)
+![image](https://github.com/wjdwodnr5452/git-study/assets/90361061/980d73f9-0acd-4066-b53f-66a9fec14db5)
+
+- git rebase & merge
+rebase 쓰는 이유 : 간단하고 짧은 브랜치들은 rebase 쓰면 깔끌 해보임
+rebase 단점 : conflict가 많이 남
+
+- squash and merge
+3 way merge를 하게 되면 로그에서 깔끔하게 안보임 그래서 squash and merge를 해서 로그 상 선이 안겹치게 하는 머지 방법
+  
+
+
+
+
+
+
+
+
 
 
 
