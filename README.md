@@ -57,16 +57,19 @@
 ![image](https://github.com/wjdwodnr5452/git-study/assets/90361061/5a2099b7-1d82-4dcf-8755-253eb466e7c9)
 
 - fast-forward merge (기준 브랜치에 신규 commit이 없는 경우)
-
+  
   - [beafore merge]
-  ![image](https://github.com/wjdwodnr5452/git-study/assets/90361061/21074470-7fab-46d4-b5c3-059e063ad3fc)
+    
+   ![image](https://github.com/wjdwodnr5452/git-study/assets/90361061/21074470-7fab-46d4-b5c3-059e063ad3fc)
 
   - [fast-foward merge]
-  ![image](https://github.com/wjdwodnr5452/git-study/assets/90361061/01ed555d-2283-4702-bd8f-4db469b3b4a9)
+    
+   ![image](https://github.com/wjdwodnr5452/git-study/assets/90361061/01ed555d-2283-4702-bd8f-4db469b3b4a9)
+
 
 - git rebase & merge
-rebase 쓰는 이유 : 간단하고 짧은 브랜치들은 rebase 쓰면 깔끌 해보임
-rebase 단점 : conflict가 많이 남
+  - rebase 쓰는 이유 : 간단하고 짧은 브랜치들은 rebase 쓰면 깔끌 해보임
+  - rebase 단점 : conflict가 많이 남
 
 
 - squash and merge
