@@ -124,6 +124,11 @@
 
 
 
+# sts에서 사용법
+
+##### 원격 저장소 브런치 가져오기
+1. fetch 해서 가져오면됨
+![image](https://github.com/wjdwodnr5452/git-study/assets/90361061/aeffe6db-ed84-4439-9985-b2d8dc8338ed)
 
 
 
